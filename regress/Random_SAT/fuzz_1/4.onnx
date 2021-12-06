@@ -1,0 +1,31 @@
+pytorch1.6:Ğ
+"
+input.1
+188MatMul_0"MatMul
+
+8
+	fc_0.bias9Add_1"Add
+
+910Relu_2"Relu
+
+10
+1912MatMul_3"MatMul
+
+12
+	fc_1.bias13Add_4"Add
+
+1314Relu_5"Relu
+
+14
+2016MatMul_6"MatMul
+
+16
+out.bias17Add_7"Addtorch-jit-export*B18J±L?rEË¾•(:>*B19Jî5;?* B20J Óò=È¦=?0QÃ¾<sŒ¾” G¿*B	fc_0.biasJ‰¿¾*B	fc_1.biasJè;?*$Bout.biasJø3¸>4?@s¾øXH¿^$3?Z
+input.1
+
+
+b
+17
+
+
+B	

@@ -1,0 +1,17 @@
+(declare-const X_0 Real)
+(declare-const X_1 Real)
+
+(declare-const Y_0 Real)
+(declare-const Y_1 Real)
+
+; Input Box
+(assert (and 
+	 (>= X_0 2.3838576316833495) (<= X_0 2.5838576316833497)
+	 (>= X_1 3.4267469882965087) (<= X_1 3.626746988296509)
+))
+
+; Output Box
+(assert (and 
+	 (>= Y_0 0.17353926801681518) (<= Y_0 0.1755392680168152)
+	 (>= Y_1 -0.14253540134429932) (<= Y_1 -0.14053540134429932)
+))
