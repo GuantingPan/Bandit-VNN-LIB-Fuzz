@@ -1,0 +1,55 @@
+pytorch1.6:
+#
+input.1
+3614MatMul_0"MatMul
+
+14
+	fc_0.bias15Add_1"Add
+
+1516Relu_2"Relu
+
+16
+3718MatMul_3"MatMul
+
+18
+	fc_1.bias19Add_4"Add
+
+1920Relu_5"Relu
+
+20
+3822MatMul_6"MatMul
+
+22
+	fc_2.bias23Add_7"Add
+
+2324Relu_8"Relu
+
+24
+3926MatMul_9"MatMul
+ 
+26
+	fc_3.bias27Add_10"Add
+
+2728Relu_11"Relu
+
+28
+4030	MatMul_12"MatMul
+ 
+30
+	fc_4.bias31Add_13"Add
+
+3132Relu_14"Relu
+
+32
+4134	MatMul_15"MatMul
+
+34
+out.bias35Add_16"Addtorch-jit-export*$B36JÓï>'š¾fÏó>DÚ>«%Ş>Yò¼*0B37J$¿¢Ÿ>úÃç=Šå¾RÕ>ÓÄÿ=$CS¾fÇÆ½ê÷Ç¾%ßã>*0B38J$»€¿Ñâ>Wøà>µ’¿ºÔ½=Ü¿Áéà¾P¾¾@M\>*0B39J$ğLß>s”Š¾»â>°ŠÅ<’·¤=OïE¾ä Ô>Ká€=¨ÿ¾*0B40J$RcÈ>T¡Ä={/À9|‹¾~.Ö>6ñ>£©ç>sÕ³¾ªúÎ¾*$B41J-z>Œ	e¾¨³¨¾¹ôa=ëªì="2?*B	fc_0.biasJY&Y¾z&<>êãÅ=*B	fc_1.biasJ]ö½ÍR„½Şç”¾*B	fc_2.biasJ×‚á¾E½<d=*B	fc_3.biasJù÷>*HŸ¾Êç>*B	fc_4.biasJ³éı>UF=£z¼*Bout.biasJçC#=àãi¾Z
+input.1
+
+
+b
+35
+
+
+B	
