@@ -2,10 +2,10 @@
 import sys
 import traceback
 import pdb
-from vnnlib_fuzzer.config import config
-from vnnlib_fuzzer.util import die, warning
-from vnnlib_fuzzer.onnx_fuzz import mk_onnx
-from vnnlib_fuzzer.vnnlib_fuzz import mk_vnnlib
+from src.config import config
+from src.util import die, warning
+from src.onnx_fuzz import mk_onnx
+from src.vnnlib_fuzz import mk_vnnlib
 import numpy as np
 
 def main():
@@ -28,6 +28,7 @@ def main():
 
 if __name__ == '__main__':
     try:
+        
         main()
     except Exception as e:
         extype, value, tb = sys.exc_info()
